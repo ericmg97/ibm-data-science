@@ -1,0 +1,13 @@
+ibm-db
+ibm-db-sa
+pandas
+requests
+numpy
+matplotlib
+seaborn
+scipy
+scikit-learn
+jupyterlab
+beautifulsoup4
+sqlalchemy
+ipython-sql

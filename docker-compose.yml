@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  base:
+    image: ericmg97/ibm-data-science
+    command: jupyter-lab --no-browser --allow-root
+    volumes:
+      - type: bind
+        source: ./
+        target: /ibm-data-science
+    ports:
+      - "8888:8888"
+      

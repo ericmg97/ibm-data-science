@@ -14,4 +14,4 @@ COPY . /ibm-data-science
 
 CMD . /opt/venv/bin/activate && \
     cd /ibm-data-science && \
-    jupyter-lab --no-browser --allow-root
+    jupyter-lab --no-browser --allow-root --ip=0.0.0.0 --port=8888
